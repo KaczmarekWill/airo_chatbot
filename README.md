@@ -7,6 +7,7 @@ In order to contribute to the project, please send Will Kaczmarek a private mess
 ### Contributors
 1. Will Kaczmarek
 2. Dominic Harshaw
+3. Atmerson Atienza
 
 ### Making Your First Contribution
 1. Fork this repository to your GitHub account by clicking the "Fork" button on the top-right corner of this page
