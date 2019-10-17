@@ -20,8 +20,8 @@ In order to contribute to the project, please send Will Kaczmarek a private mess
 
 4. Move to whatever folder you would like to host the repository in, then enter the following commands in the terminal:
 ```
-$ git init
 $ git clone {paste the link you copied here}
+$ cd airo_chatbot
 ```
 You will then be prompted to enter your GitHub username and password. 
 
