@@ -11,6 +11,7 @@ In order to contribute to the project, please send Will Kaczmarek a private mess
 1. Atmerson Atienza
 1. Rothanak So
 1. David Garcia
+1. Quinn Spearman
 1. Per Sander
 
 ### Making Your First Contribution
