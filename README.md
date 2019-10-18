@@ -11,6 +11,7 @@ In order to contribute to the project, please send Will Kaczmarek a private mess
 1. Atmerson Atienza
 1. Rothanak So
 1. David Garcia
+1. Per Sander
 
 ### Making Your First Contribution
 1. Fork this repository to your GitHub account by clicking the "Fork" button on the top-right corner of this page
