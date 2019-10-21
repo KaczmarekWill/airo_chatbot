@@ -1,1 +1,4 @@
 __pycache__
+events.db
+models/
+rasa.db
