@@ -1,16 +1,39 @@
 intents:
 - greet
 - goodbye
-- available_networks
+- query_knowledge_base
+entities:
+- object_type
+- mention
+- attribute
+- network
+- encrypted
+- legacy
+slots:
+  attribute:
+    type: unfeaturized
+  encrypted:
+    type: unfeaturized
+  legacy:
+    type: unfeaturized
+  mention:
+    type: unfeaturized
+  network:
+    type: unfeaturized
+  object_type:
+    type: unfeaturized
 templates:
   utter_greet:
-  - text: Hey! How are you?
+  - text: Hello! What can I do for you?
+  - text: Hi, how can I help you?
   utter_goodbye:
   - text: Bye
-  utter_available_networks:
-  - text: UNF has four networks available to students. UNF-Wireless, UNF-Visitor,
-      UNF-Secure, and Guest. Feel free to ask me more about any of these networks!
+  - text: Goodbye. Talk to you again soon.
+  utter_ask_rephrase:
+  - text: Sorry, I'm not sure I understand. Can you rephrase that?
+  - text: Can you please rephrase? I did not get that.
 actions:
 - utter_greet
 - utter_goodbye
-- utter_available_networks
+- utter_ask_rephrase
+- action_query_knowledge_base

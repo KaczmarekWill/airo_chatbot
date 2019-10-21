@@ -6,15 +6,24 @@
 * goodbye
   - utter_goodbye
 
-## get networks
-* available_networks
-  - utter_available_networks
+## query knowledge base
+* query_knowledge_base
+  - action_query_knowledge_base
 
-## WKaczmarek - available networks
-
+## query path 1
 * greet
-    - utter_greet
-* available_networks
-    - utter_available_networks
-* available_networks
-    - utter_available_networks
+  - utter_greet
+* query_knowledge_base
+  - action_query_knowledge_base
+* goodbye
+  - utter_goodbye
+
+## query path 2
+* greet
+  - utter_greet
+* query_knowledge_base
+  - action_query_knowledge_base
+* query_knowledge_base
+  - action_query_knowledge_base
+* goodbye
+  - utter_goodbye

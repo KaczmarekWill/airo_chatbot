@@ -1,0 +1,32 @@
+{
+	"network": [
+		{
+			"id": 0,
+			"name": "UNF-Wireless",
+			"encrypted": "encrypted",
+			"legacy": "converted",
+			"about": "UNF-Wireless is a secure, encrypted network for UNF students, faculty, and staff. You can log in using your UNF ID and password. Housing students will need to register with SafeConnect."
+		},
+		{
+			"id": 1,
+			"name": "UNF-Visitor",
+			"encrypted": "unencrypted",
+			"legacy": "converted",
+			"about": "UNF-Visitor is..."
+		},
+		{
+			"id": 2,
+			"name": "UNF-Secure",
+			"encrypted": "encrypted",
+			"legacy": "legacy",
+			"about": "UNF-Secure is..."
+		},
+		{
+			"id": 3,
+			"name": "guest",
+			"encrypted": "unencrypted",
+			"legacy": "legacy",
+			"about": "The guest network is..."
+		}
+	]
+}
