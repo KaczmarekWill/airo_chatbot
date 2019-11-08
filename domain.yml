@@ -2,6 +2,14 @@ intents:
 - greet
 - goodbye
 - query_knowledge_base
+- connect_to_mainwifi
+- connect_to_guestwifi
+- connect_to_dormwifi
+- unfwireless_update
+- antivirus_choice
+- policy_key_info
+- policy_key_install
+- ospreynet
 entities:
 - object_type
 - mention
@@ -32,8 +40,39 @@ templates:
   utter_ask_rephrase:
   - text: Sorry, I'm not sure I understand. Can you rephrase that?
   - text: Can you please rephrase? I did not get that.
+  utter_connect_to_mainwifi:
+  - text: No Problem! When attempting to connect to UNF-Wireless or unf-secure, simply put your N-number in for the username and your current myWings password! If you are on an android device, select "Do Not Validate" for "CA certificate" also, the username will show up as "Identity".
+  utter_connect_to_guestwifi:
+  - text: After selecting UNF-Visitor, you will be brought to the registration form and asked to put your name, email address, phone number, and phone carrier. Checking "I accept the terms of use" and clicking register will send a text message with your username and password. Go back to the form and enter the username and password that was provided. Click "Log in" and you should be able to access the network now!
+	utter_unfwireless_update:
+	- text: You can either visit https://www.unf.edu/its/wireless/Planned_Schedule_for_UNF_Wireless.aspx to see the progress on the upgrade to UNF-Wireless or call the Help Desk at (904) 620-4357.
+	utter_antivirus_choice: 
+	- text: A few free anti-virus programs that UNF reccomends are Sophos, AVG, and Avast! 
+Sophos-https://www.sophos.com/en-us.aspx
+AVG-https://www.avg.com/en-us/homepage#pc
+Avast-https://www.avast.com/en-us/index#pc
+
+If you would like more reccomendations, contact the Help Desk!
+
+	utter_connect_to_dormwifi:
+	- text: To connect to the wireless network at the dorm area, you will need 3 main things! 1. A device that has an 802.11g or 802.11n wireless adapter (don't worry, any device that has a browser will have this), 2. the policy key, and 3. an antivirus software. Once you have those 3 things, you can click on UNF-Wireless and log in with your N-number and myWings password.
+	utter_policy_key_info:
+	- text: The policy key will check that anti-virus and anti-spyware programs are installed and up to date, and "automatic operating system updates" are enabled. If these services are not present, the computer will be quarantined and pointed to remediation web sites for updating. The policy key will also look to make sure the computer does not have Peer to Peer software/services running or a router connected. When policy key requirements are met, network access is allowed. After initial installation, if the policy key is deleted from the computer, it will need to be installed again before the computer has Internet access.
+	utter_policy_key_install:
+	- text: Once you have signed into UNF_Wireless, it should detect that you do not have a policy key installed and then prompt you to donwload and install it. If you are not being prompted to sign in and download the policy key, go to https://auth.impulse.com:8443 and sign in. If you run into any issues, please call the ITS Help Desk at (904) 620-4357 or bring your laptop to them at the first floor of the library.
+	utter_ospreynet:
+	- text: OspreyNet is the wired and wireless connection provided in the Residence Hall. Most rooms in the residence buildings is equipped with a hard wire Ethernet connection (one per person). Additionally, wireless connectivity is available throughout all rooms.
+	
 actions:
 - utter_greet
 - utter_goodbye
 - utter_ask_rephrase
 - action_query_knowledge_base
+- utter_connect_to_mainwifi
+- utter_connect_to_guestwifi
+- utter_connect_to_dormwifi
+- utter_unfwireless_update
+- utter_antivirus_choice
+- utter_policy_key_info
+- utter_policy_key_install
+- utter_ospreynet

@@ -36,3 +36,63 @@
 ## lookup:legacy
 - legacy
 - converted
+
+## connect_to_mainwifi
+- How do I connect to [UNF-Wireless](network)?
+- I can't connect to [UNF-Wireless](network).
+- Tell me how to connect to [UNF-Wireless](network).
+- connect to wifi.
+- I need to connect to [unf-secure](network).
+- Show me how to connect to [unf-secure](network).
+- I want to connect to [UNF-Wireless](network).
+
+## connect_to_guestwifi
+- How do I connect to the guest wifi?
+- I want to connect to [UNF-Visitor](network).
+- Can you tell me how to connect to the guest wifi?
+- I'm not a unf student, how do I connect to the wifi? 
+- I'm just visting, how do I connect to the wifi?
+- I'm having issues with connecting to [UNF-Wireless](network).
+
+## connect_to_dormwifi
+- I'm at the dorms, how do I connect to the wifi? 
+- How can I connect to the dorm wifi? 
+- What do I need to do to connect to the dorm wifi? 
+- I live on campus and I want to connect to the wifi.
+- I want to connect to the dorm wireless network.
+
+## unfwireless_update
+- Does this buidling have [UNF-Wireless](network)?
+- When will this buidling get [UNF-Wireless](network)?
+- Whats the status of the wifi upgrade?
+- Will my building be upgraded to [UNF-Wireless](network)?
+- Which buildings have [UNF-Wireless](network)?
+
+## antivirus_choice
+- What anti-virus should I use?
+- What anti-virus software does UNF reccomend? 
+- What are some free anti-virus programs? 
+- Programs like avast? 
+- What should I install on my laptop to protect against viruses? 
+- How do I stop viruses?
+
+## policy_key_info
+- What is a policy key? 
+- Why do I need a policy key? 
+- Do I have to install a policy key?
+- What does a policy key do?
+- What does the policy key check for? 
+
+## policy_key_install
+- How do I install a policy key? 
+- Where can I get a policy key? 
+- I need to install a policy key on my computer.
+- Where can I download the policy key?
+- I want to install the policy key
+
+## ospreynet
+- What is the Osprey Net?
+- What does the Osprey Net cover? 
+- Osprey Net
+- Where is the Osprey Net? 
+- Is the Osprey Net the wireless network? 
