@@ -96,3 +96,10 @@
 - Osprey Net
 - Where is the Osprey Net? 
 - Is the Osprey Net the wireless network? 
+
+## connect_smart_device
+- How do I connect my smart TV to the wifi? 
+- Can I connect my smart speaker to the network? 
+- Show me how to connect my console to the network.
+- I can't connect my smart device to the wifi.
+- I want to connect my smart device to the wifi.
