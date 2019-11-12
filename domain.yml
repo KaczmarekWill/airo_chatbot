@@ -10,6 +10,7 @@ intents:
 - policy_key_info
 - policy_key_install
 - ospreynet
+- connect_smart_device
 entities:
 - object_type
 - mention
@@ -62,6 +63,23 @@ If you would like more reccomendations, contact the Help Desk!
 	- text: Once you have signed into UNF_Wireless, it should detect that you do not have a policy key installed and then prompt you to donwload and install it. If you are not being prompted to sign in and download the policy key, go to https://auth.impulse.com:8443 and sign in. If you run into any issues, please call the ITS Help Desk at (904) 620-4357 or bring your laptop to them at the first floor of the library.
 	utter_ospreynet:
 	- text: OspreyNet is the wired and wireless connection provided in the Residence Hall. Most rooms in the residence buildings is equipped with a hard wire Ethernet connection (one per person). Additionally, wireless connectivity is available throughout all rooms.
+
+	utter_connect_smart_device:
+	- text: If you have a device that does not have a browser, then you will need to do the following,
+
+1. Go to http://www.unf.edu/mydevices and login with their myWings credentials.
+2. Click "Create Device"
+3. Add a device name and the devices MAC Address, click "Create Device"
+4. Connect the device to UNF-Visitor.
+
+A few things to keep in mind. 
+-The MAC Address is located on the device itself. 
+-These devices will remain active on a rolling 90-day period. Once the device has been inactive for -90 days, it will be deactivated. Once the device is deactivated for 90 days, it will be deleted from the system.
+-You will have the ability to reactivate or delete their devices that is on your account.
+-You will have to connect to UNF-Visitor on the device after it has been registered.
+
+If you are still having issues, please contact the Help Desk at (904) 620-4357.
+
 	
 actions:
 - utter_greet
@@ -76,3 +94,4 @@ actions:
 - utter_policy_key_info
 - utter_policy_key_install
 - utter_ospreynet
+- utter_connect_smart_device
